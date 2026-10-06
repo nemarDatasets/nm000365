@@ -1,0 +1,5 @@
+{
+  "source_subject_id": {
+    "Description": "Subject directory name in the Hugging Face release (data/seeg.he2023xuanwu/<id>)."
+  }
+}

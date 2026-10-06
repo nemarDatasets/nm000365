@@ -1,0 +1,39 @@
+{
+  "TaskName": "wordreading",
+  "TaskDescription": "Chinese word reading aloud (source task name \"word-recitation\"). Each trial: a word from a fixed 61-word set appears in white (0.5 s), turns green (go cue, 2 s; the subject reads it aloud), then a fixation cross (0.5 s). Each ~10-min block presents every word twice in randomised order (122 trials).",
+  "Instructions": "Speak the word aloud as soon as the text turns green (paraphrase of the paper, Appendix A).",
+  "SamplingFrequency": 1000.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "band-pass (authors)": {
+      "low_cutoff_Hz": 0.5,
+      "high_cutoff_Hz": 200
+    },
+    "notch (authors)": {
+      "frequency_Hz": 50
+    },
+    "resampling (authors)": {
+      "from_Hz": 2000,
+      "to_Hz": 1000
+    },
+    "bipolar re-reference (authors)": {
+      "description": "bi-polar re-referencing as stated in the paper; the contact pairing is not encoded in the release"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "Bipolar re-reference applied by the authors (paper section 4.2). Channel names are as released; the pairing of each channel is not stated.",
+  "SEEGChannelCount": 94,
+  "ECOGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "epoched",
+  "EpochLength": 3.0,
+  "RecordingDuration": 1704.0,
+  "iEEGGround": "n/a",
+  "iEEGPlacementScheme": "Clinically determined sEEG depth electrodes (7-13 electrodes per subject according to the paper).",
+  "ElectricalStimulation": false
+}

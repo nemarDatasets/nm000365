@@ -1,0 +1,19 @@
+{
+  "units": {
+    "Description": "The release has no unit field. The stored values (per-channel standard deviation of order 1e-5) are only plausible as volts, so V is used; the numbers are exactly the authors' stored values (float32-rounded). They are NOT z-scored, although the paper lists per-channel z-scoring as a preprocessing step (presumably applied at training time)."
+  },
+  "low_cutoff": {
+    "Description": "High-pass edge of the authors' 0.5-200 Hz band-pass (paper section 4.2).",
+    "Units": "Hz"
+  },
+  "high_cutoff": {
+    "Description": "Low-pass edge of the authors' 0.5-200 Hz band-pass.",
+    "Units": "Hz"
+  },
+  "notch": {
+    "Description": "50 Hz notch applied by the authors (value in Hz)."
+  },
+  "group": {
+    "Description": "Electrode shaft: channel-name prefix before the contact number, as released."
+  }
+}

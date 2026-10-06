@@ -1,0 +1,7 @@
+filename	source_file
+ieeg/sub-008_task-wordreading_run-1_ieeg.vhdr	sourcedata/huggingface-liulab-repository-Du-IN/data/seeg.he2023xuanwu/008/word-recitation/run1/dataset.bipolar.default.unaligned/data
+ieeg/sub-008_task-wordreading_run-2_ieeg.vhdr	sourcedata/huggingface-liulab-repository-Du-IN/data/seeg.he2023xuanwu/008/word-recitation/run2/dataset.bipolar.default.unaligned/data
+ieeg/sub-008_task-wordreading_run-3_ieeg.vhdr	sourcedata/huggingface-liulab-repository-Du-IN/data/seeg.he2023xuanwu/008/word-recitation/run3/dataset.bipolar.default.unaligned/data
+ieeg/sub-008_task-wordreading_run-4_ieeg.vhdr	sourcedata/huggingface-liulab-repository-Du-IN/data/seeg.he2023xuanwu/008/word-recitation/run4/dataset.bipolar.default.unaligned/data
+ieeg/sub-008_task-wordreading_run-5_ieeg.vhdr	sourcedata/huggingface-liulab-repository-Du-IN/data/seeg.he2023xuanwu/008/word-recitation/run5/dataset.bipolar.default.unaligned/data
+ieeg/sub-008_task-wordreading_run-6_ieeg.vhdr	sourcedata/huggingface-liulab-repository-Du-IN/data/seeg.he2023xuanwu/008/word-recitation/run6/dataset.bipolar.default.unaligned/data

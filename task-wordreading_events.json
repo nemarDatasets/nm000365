@@ -1,0 +1,27 @@
+{
+  "onset": {
+    "Description": "Seconds from the start of this file. The file holds the authors' 3-s epochs back to back (RecordingType epoched); onsets are NOT times in the original continuous recording, which is not shared.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Epoch length (3000 samples at 1000 Hz).",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "0-based sample index of the epoch start in this file."
+  },
+  "trial_type": {
+    "Levels": {
+      "word_epoch": "One 3-s epoch of the authors' word-reading samples (\"dataset.bipolar.default.unaligned\")."
+    }
+  },
+  "value": {
+    "Description": "The word the subject read aloud in this trial, exactly as stored in the release (field \"name\", UTF-8 Chinese). One of 61 words."
+  },
+  "word_en": {
+    "Description": "English translation of the word as given by the authors in the paper (arXiv 2405.11459v3, Appendix A, Table 4)."
+  },
+  "source_epoch_index": {
+    "Description": "0-based position of the epoch in the source pickled list (dataset.bipolar.default.unaligned/data). The release does not state whether this order is the presentation order, and does not give the position of the epoch relative to the trial events (word onset, go cue, speech onset); \"unaligned\" is the authors' variant name."
+  }
+}

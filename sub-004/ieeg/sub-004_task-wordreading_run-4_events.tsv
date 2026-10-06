@@ -1,0 +1,610 @@
+onset	duration	sample	trial_type	value	word_en	source_epoch_index
+0.0	3.0	0	word_epoch	猪肉	pork	0
+3.0	3.0	3000	word_epoch	电脑	computer	1
+6.0	3.0	6000	word_epoch	菠萝	pineapple	2
+9.0	3.0	9000	word_epoch	找	look for	3
+12.0	3.0	12000	word_epoch	葱花	chopped green onion	4
+15.0	3.0	15000	word_epoch	护士	nurse	5
+18.0	3.0	18000	word_epoch	看	look	6
+21.0	3.0	21000	word_epoch	吃	eat	7
+24.0	3.0	24000	word_epoch	喝	drink	8
+27.0	3.0	27000	word_epoch	平静	calm	9
+30.0	3.0	30000	word_epoch	需要	need	10
+33.0	3.0	33000	word_epoch	有	have	11
+36.0	3.0	36000	word_epoch	猪肉	pork	12
+39.0	3.0	39000	word_epoch	音乐	music	13
+42.0	3.0	42000	word_epoch	钢琴	piano	14
+45.0	3.0	45000	word_epoch	穿	wear	15
+48.0	3.0	48000	word_epoch	把	get	16
+51.0	3.0	51000	word_epoch	放在	put on	17
+54.0	3.0	54000	word_epoch	朋友	friend	18
+57.0	3.0	57000	word_epoch	心情	mood	19
+60.0	3.0	60000	word_epoch	手机	cell phone	20
+63.0	3.0	63000	word_epoch	拿	hold	21
+66.0	3.0	66000	word_epoch	电脑	computer	22
+69.0	3.0	69000	word_epoch	玩	play	23
+72.0	3.0	72000	word_epoch	青菜	vegetables	24
+75.0	3.0	75000	word_epoch	你	you	25
+78.0	3.0	78000	word_epoch	面条	noodle	26
+81.0	3.0	81000	word_epoch	预约	reserve	27
+84.0	3.0	84000	word_epoch	口渴	thirsty	28
+87.0	3.0	87000	word_epoch	关门	close the door	29
+90.0	3.0	90000	word_epoch	蒜泥	garlic paste	30
+93.0	3.0	93000	word_epoch	汤圆	sweet dumpling	31
+96.0	3.0	96000	word_epoch	需要	need	32
+99.0	3.0	99000	word_epoch	我	I	33
+102.0	3.0	102000	word_epoch	换药	change dressing	34
+105.0	3.0	105000	word_epoch	是	be	35
+108.0	3.0	108000	word_epoch	凳子	stool	36
+111.0	3.0	111000	word_epoch	给	give	37
+114.0	3.0	114000	word_epoch	喝	drink	38
+117.0	3.0	117000	word_epoch	我	I	39
+120.0	3.0	120000	word_epoch	口渴	thirsty	40
+123.0	3.0	123000	word_epoch	醋	vinegar	41
+126.0	3.0	126000	word_epoch	厕所	toilet	42
+129.0	3.0	129000	word_epoch	头疼	headache	43
+132.0	3.0	132000	word_epoch	橙汁	orange juice	44
+135.0	3.0	135000	word_epoch	热水	hot water	45
+138.0	3.0	138000	word_epoch	感觉	feel	46
+141.0	3.0	141000	word_epoch	香肠	sausage	47
+144.0	3.0	144000	word_epoch	帮助	help	48
+147.0	3.0	147000	word_epoch	把	get	49
+150.0	3.0	150000	word_epoch	怎样	how	50
+153.0	3.0	153000	word_epoch	碗	bowl	51
+156.0	3.0	156000	word_epoch	脸盆	washbasin	52
+159.0	3.0	159000	word_epoch	找	look for	53
+162.0	3.0	162000	word_epoch	小刀	knife	54
+165.0	3.0	165000	word_epoch	篮球	basketball	55
+168.0	3.0	168000	word_epoch	汤圆	sweet dumpling	56
+171.0	3.0	171000	word_epoch	关门	close the door	57
+174.0	3.0	174000	word_epoch	小刀	knife	58
+177.0	3.0	177000	word_epoch	平静	calm	59
+180.0	3.0	180000	word_epoch	家人	family	60
+183.0	3.0	183000	word_epoch	香肠	sausage	61
+186.0	3.0	186000	word_epoch	碗	bowl	62
+189.0	3.0	189000	word_epoch	预约	reserve	63
+192.0	3.0	192000	word_epoch	给	give	64
+195.0	3.0	195000	word_epoch	豆腐	tofu	65
+198.0	3.0	198000	word_epoch	愿意	willing	66
+201.0	3.0	201000	word_epoch	篮球	basketball	67
+204.0	3.0	204000	word_epoch	怎样	how	68
+207.0	3.0	207000	word_epoch	热水	hot water	69
+210.0	3.0	210000	word_epoch	米饭	rice	70
+213.0	3.0	213000	word_epoch	漂亮	pretty	71
+216.0	3.0	216000	word_epoch	是	be	72
+219.0	3.0	219000	word_epoch	毛巾	towel	73
+222.0	3.0	222000	word_epoch	厕所	toilet	74
+225.0	3.0	225000	word_epoch	鱼块	steak	75
+228.0	3.0	228000	word_epoch	丝瓜	loofah	76
+231.0	3.0	231000	word_epoch	凳子	stool	77
+234.0	3.0	234000	word_epoch	手机	cell phone	78
+237.0	3.0	237000	word_epoch	青菜	vegetables	79
+240.0	3.0	240000	word_epoch	放在	put on	80
+243.0	3.0	243000	word_epoch	毛巾	towel	81
+246.0	3.0	246000	word_epoch	感觉	feel	82
+249.0	3.0	249000	word_epoch	音乐	music	83
+252.0	3.0	252000	word_epoch	嘴巴	mouth	84
+255.0	3.0	255000	word_epoch	换药	change dressing	85
+258.0	3.0	258000	word_epoch	葱花	chopped green onion	86
+261.0	3.0	261000	word_epoch	钢琴	piano	87
+264.0	3.0	264000	word_epoch	面条	noodle	88
+267.0	3.0	267000	word_epoch	心情	mood	89
+270.0	3.0	270000	word_epoch	醋	vinegar	90
+273.0	3.0	273000	word_epoch	衣服	clothes	91
+276.0	3.0	276000	word_epoch	玩	play	92
+279.0	3.0	279000	word_epoch	脸盆	washbasin	93
+282.0	3.0	282000	word_epoch	外卖	takeouts	94
+285.0	3.0	285000	word_epoch	漂亮	pretty	95
+288.0	3.0	288000	word_epoch	豆腐	tofu	96
+291.0	3.0	291000	word_epoch	问题	problem	97
+294.0	3.0	294000	word_epoch	软糖	gummies	98
+297.0	3.0	297000	word_epoch	头疼	headache	99
+300.0	3.0	300000	word_epoch	家人	family	100
+303.0	3.0	303000	word_epoch	菠萝	pineapple	101
+306.0	3.0	306000	word_epoch	丝瓜	loofah	102
+309.0	3.0	309000	word_epoch	穿	wear	103
+312.0	3.0	312000	word_epoch	护士	nurse	104
+315.0	3.0	315000	word_epoch	愿意	willing	105
+318.0	3.0	318000	word_epoch	吃	eat	106
+321.0	3.0	321000	word_epoch	你	you	107
+324.0	3.0	324000	word_epoch	外卖	takeouts	108
+327.0	3.0	327000	word_epoch	拿	hold	109
+330.0	3.0	330000	word_epoch	有	have	110
+333.0	3.0	333000	word_epoch	朋友	friend	111
+336.0	3.0	336000	word_epoch	鱼块	steak	112
+339.0	3.0	339000	word_epoch	帮助	help	113
+342.0	3.0	342000	word_epoch	橙汁	orange juice	114
+345.0	3.0	345000	word_epoch	米饭	rice	115
+348.0	3.0	348000	word_epoch	蒜泥	garlic paste	116
+351.0	3.0	351000	word_epoch	问题	problem	117
+354.0	3.0	354000	word_epoch	看	look	118
+357.0	3.0	357000	word_epoch	衣服	clothes	119
+360.0	3.0	360000	word_epoch	嘴巴	mouth	120
+363.0	3.0	363000	word_epoch	篮球	basketball	121
+366.0	3.0	366000	word_epoch	衣服	clothes	122
+369.0	3.0	369000	word_epoch	猪肉	pork	123
+372.0	3.0	372000	word_epoch	头疼	headache	124
+375.0	3.0	375000	word_epoch	感觉	feel	125
+378.0	3.0	378000	word_epoch	平静	calm	126
+381.0	3.0	381000	word_epoch	凳子	stool	127
+384.0	3.0	384000	word_epoch	拿	hold	128
+387.0	3.0	387000	word_epoch	鱼块	steak	129
+390.0	3.0	390000	word_epoch	给	give	130
+393.0	3.0	393000	word_epoch	放在	put on	131
+396.0	3.0	396000	word_epoch	家人	family	132
+399.0	3.0	399000	word_epoch	心情	mood	133
+402.0	3.0	402000	word_epoch	把	get	134
+405.0	3.0	405000	word_epoch	丝瓜	loofah	135
+408.0	3.0	408000	word_epoch	蒜泥	garlic paste	136
+411.0	3.0	411000	word_epoch	电脑	computer	137
+414.0	3.0	414000	word_epoch	有	have	138
+417.0	3.0	417000	word_epoch	豆腐	tofu	139
+420.0	3.0	420000	word_epoch	菠萝	pineapple	140
+423.0	3.0	423000	word_epoch	米饭	rice	141
+426.0	3.0	426000	word_epoch	嘴巴	mouth	142
+429.0	3.0	429000	word_epoch	需要	need	143
+432.0	3.0	432000	word_epoch	口渴	thirsty	144
+435.0	3.0	435000	word_epoch	鱼块	steak	145
+438.0	3.0	438000	word_epoch	你	you	146
+441.0	3.0	441000	word_epoch	我	I	147
+444.0	3.0	444000	word_epoch	问题	problem	148
+447.0	3.0	447000	word_epoch	面条	noodle	149
+450.0	3.0	450000	word_epoch	关门	close the door	150
+453.0	3.0	453000	word_epoch	给	give	151
+456.0	3.0	456000	word_epoch	碗	bowl	152
+459.0	3.0	459000	word_epoch	吃	eat	153
+462.0	3.0	462000	word_epoch	怎样	how	154
+465.0	3.0	465000	word_epoch	汤圆	sweet dumpling	155
+468.0	3.0	468000	word_epoch	热水	hot water	156
+471.0	3.0	471000	word_epoch	厕所	toilet	157
+474.0	3.0	474000	word_epoch	醋	vinegar	158
+477.0	3.0	477000	word_epoch	朋友	friend	159
+480.0	3.0	480000	word_epoch	猪肉	pork	160
+483.0	3.0	483000	word_epoch	汤圆	sweet dumpling	161
+486.0	3.0	486000	word_epoch	小刀	knife	162
+489.0	3.0	489000	word_epoch	愿意	willing	163
+492.0	3.0	492000	word_epoch	音乐	music	164
+495.0	3.0	495000	word_epoch	口渴	thirsty	165
+498.0	3.0	498000	word_epoch	喝	drink	166
+501.0	3.0	501000	word_epoch	换药	change dressing	167
+504.0	3.0	504000	word_epoch	换药	change dressing	168
+507.0	3.0	507000	word_epoch	毛巾	towel	169
+510.0	3.0	510000	word_epoch	穿	wear	170
+513.0	3.0	513000	word_epoch	电脑	computer	171
+516.0	3.0	516000	word_epoch	衣服	clothes	172
+519.0	3.0	519000	word_epoch	青菜	vegetables	173
+522.0	3.0	522000	word_epoch	是	be	174
+525.0	3.0	525000	word_epoch	玩	play	175
+528.0	3.0	528000	word_epoch	感觉	feel	176
+531.0	3.0	531000	word_epoch	软糖	gummies	177
+534.0	3.0	534000	word_epoch	放在	put on	178
+537.0	3.0	537000	word_epoch	厕所	toilet	179
+540.0	3.0	540000	word_epoch	毛巾	towel	180
+543.0	3.0	543000	word_epoch	头疼	headache	181
+546.0	3.0	546000	word_epoch	护士	nurse	182
+549.0	3.0	549000	word_epoch	把	get	183
+552.0	3.0	552000	word_epoch	找	look for	184
+555.0	3.0	555000	word_epoch	钢琴	piano	185
+558.0	3.0	558000	word_epoch	篮球	basketball	186
+561.0	3.0	561000	word_epoch	看	look	187
+564.0	3.0	564000	word_epoch	面条	noodle	188
+567.0	3.0	567000	word_epoch	醋	vinegar	189
+570.0	3.0	570000	word_epoch	菠萝	pineapple	190
+573.0	3.0	573000	word_epoch	心情	mood	191
+576.0	3.0	576000	word_epoch	找	look for	192
+579.0	3.0	579000	word_epoch	脸盆	washbasin	193
+582.0	3.0	582000	word_epoch	吃	eat	194
+585.0	3.0	585000	word_epoch	米饭	rice	195
+588.0	3.0	588000	word_epoch	小刀	knife	196
+591.0	3.0	591000	word_epoch	凳子	stool	197
+594.0	3.0	594000	word_epoch	钢琴	piano	198
+597.0	3.0	597000	word_epoch	我	I	199
+600.0	3.0	600000	word_epoch	家人	family	200
+603.0	3.0	603000	word_epoch	葱花	chopped green onion	201
+606.0	3.0	606000	word_epoch	软糖	gummies	202
+609.0	3.0	609000	word_epoch	丝瓜	loofah	203
+612.0	3.0	612000	word_epoch	帮助	help	204
+615.0	3.0	615000	word_epoch	愿意	willing	205
+618.0	3.0	618000	word_epoch	香肠	sausage	206
+621.0	3.0	621000	word_epoch	穿	wear	207
+624.0	3.0	624000	word_epoch	橙汁	orange juice	208
+627.0	3.0	627000	word_epoch	香肠	sausage	209
+630.0	3.0	630000	word_epoch	嘴巴	mouth	210
+633.0	3.0	633000	word_epoch	看	look	211
+636.0	3.0	636000	word_epoch	音乐	music	212
+639.0	3.0	639000	word_epoch	外卖	takeouts	213
+642.0	3.0	642000	word_epoch	漂亮	pretty	214
+645.0	3.0	645000	word_epoch	葱花	chopped green onion	215
+648.0	3.0	648000	word_epoch	豆腐	tofu	216
+651.0	3.0	651000	word_epoch	蒜泥	garlic paste	217
+654.0	3.0	654000	word_epoch	漂亮	pretty	218
+657.0	3.0	657000	word_epoch	橙汁	orange juice	219
+660.0	3.0	660000	word_epoch	怎样	how	220
+663.0	3.0	663000	word_epoch	手机	cell phone	221
+666.0	3.0	666000	word_epoch	碗	bowl	222
+669.0	3.0	669000	word_epoch	脸盆	washbasin	223
+672.0	3.0	672000	word_epoch	有	have	224
+675.0	3.0	675000	word_epoch	朋友	friend	225
+678.0	3.0	678000	word_epoch	喝	drink	226
+681.0	3.0	681000	word_epoch	热水	hot water	227
+684.0	3.0	684000	word_epoch	你	you	228
+687.0	3.0	687000	word_epoch	是	be	229
+690.0	3.0	690000	word_epoch	预约	reserve	230
+693.0	3.0	693000	word_epoch	拿	hold	231
+696.0	3.0	696000	word_epoch	手机	cell phone	232
+699.0	3.0	699000	word_epoch	玩	play	233
+702.0	3.0	702000	word_epoch	问题	problem	234
+705.0	3.0	705000	word_epoch	平静	calm	235
+708.0	3.0	708000	word_epoch	青菜	vegetables	236
+711.0	3.0	711000	word_epoch	预约	reserve	237
+714.0	3.0	714000	word_epoch	关门	close the door	238
+717.0	3.0	717000	word_epoch	外卖	takeouts	239
+720.0	3.0	720000	word_epoch	护士	nurse	240
+723.0	3.0	723000	word_epoch	帮助	help	241
+726.0	3.0	726000	word_epoch	需要	need	242
+729.0	3.0	729000	word_epoch	鱼块	steak	243
+732.0	3.0	732000	word_epoch	豆腐	tofu	244
+735.0	3.0	735000	word_epoch	青菜	vegetables	245
+738.0	3.0	738000	word_epoch	愿意	willing	246
+741.0	3.0	741000	word_epoch	是	be	247
+744.0	3.0	744000	word_epoch	菠萝	pineapple	248
+747.0	3.0	747000	word_epoch	菠萝	pineapple	249
+750.0	3.0	750000	word_epoch	音乐	music	250
+753.0	3.0	753000	word_epoch	篮球	basketball	251
+756.0	3.0	756000	word_epoch	漂亮	pretty	252
+759.0	3.0	759000	word_epoch	篮球	basketball	253
+762.0	3.0	762000	word_epoch	香肠	sausage	254
+765.0	3.0	765000	word_epoch	穿	wear	255
+768.0	3.0	768000	word_epoch	手机	cell phone	256
+771.0	3.0	771000	word_epoch	找	look for	257
+774.0	3.0	774000	word_epoch	感觉	feel	258
+777.0	3.0	777000	word_epoch	换药	change dressing	259
+780.0	3.0	780000	word_epoch	家人	family	260
+783.0	3.0	783000	word_epoch	豆腐	tofu	261
+786.0	3.0	786000	word_epoch	手机	cell phone	262
+789.0	3.0	789000	word_epoch	你	you	263
+792.0	3.0	792000	word_epoch	怎样	how	264
+795.0	3.0	795000	word_epoch	问题	problem	265
+798.0	3.0	798000	word_epoch	找	look for	266
+801.0	3.0	801000	word_epoch	小刀	knife	267
+804.0	3.0	804000	word_epoch	我	I	268
+807.0	3.0	807000	word_epoch	青菜	vegetables	269
+810.0	3.0	810000	word_epoch	需要	need	270
+813.0	3.0	813000	word_epoch	外卖	takeouts	271
+816.0	3.0	816000	word_epoch	把	get	272
+819.0	3.0	819000	word_epoch	心情	mood	273
+822.0	3.0	822000	word_epoch	口渴	thirsty	274
+825.0	3.0	825000	word_epoch	电脑	computer	275
+828.0	3.0	828000	word_epoch	你	you	276
+831.0	3.0	831000	word_epoch	猪肉	pork	277
+834.0	3.0	834000	word_epoch	毛巾	towel	278
+837.0	3.0	837000	word_epoch	穿	wear	279
+840.0	3.0	840000	word_epoch	护士	nurse	280
+843.0	3.0	843000	word_epoch	汤圆	sweet dumpling	281
+846.0	3.0	846000	word_epoch	拿	hold	282
+849.0	3.0	849000	word_epoch	热水	hot water	283
+852.0	3.0	852000	word_epoch	预约	reserve	284
+855.0	3.0	855000	word_epoch	鱼块	steak	285
+858.0	3.0	858000	word_epoch	把	get	286
+861.0	3.0	861000	word_epoch	头疼	headache	287
+864.0	3.0	864000	word_epoch	汤圆	sweet dumpling	288
+867.0	3.0	867000	word_epoch	放在	put on	289
+870.0	3.0	870000	word_epoch	钢琴	piano	290
+873.0	3.0	873000	word_epoch	面条	noodle	291
+876.0	3.0	876000	word_epoch	护士	nurse	292
+879.0	3.0	879000	word_epoch	拿	hold	293
+882.0	3.0	882000	word_epoch	橙汁	orange juice	294
+885.0	3.0	885000	word_epoch	猪肉	pork	295
+888.0	3.0	888000	word_epoch	给	give	296
+891.0	3.0	891000	word_epoch	脸盆	washbasin	297
+894.0	3.0	894000	word_epoch	是	be	298
+897.0	3.0	897000	word_epoch	葱花	chopped green onion	299
+900.0	3.0	900000	word_epoch	漂亮	pretty	300
+903.0	3.0	903000	word_epoch	衣服	clothes	301
+906.0	3.0	906000	word_epoch	平静	calm	302
+909.0	3.0	909000	word_epoch	碗	bowl	303
+912.0	3.0	912000	word_epoch	口渴	thirsty	304
+915.0	3.0	915000	word_epoch	玩	play	305
+918.0	3.0	918000	word_epoch	有	have	306
+921.0	3.0	921000	word_epoch	香肠	sausage	307
+924.0	3.0	924000	word_epoch	帮助	help	308
+927.0	3.0	927000	word_epoch	面条	noodle	309
+930.0	3.0	930000	word_epoch	感觉	feel	310
+933.0	3.0	933000	word_epoch	小刀	knife	311
+936.0	3.0	936000	word_epoch	心情	mood	312
+939.0	3.0	939000	word_epoch	平静	calm	313
+942.0	3.0	942000	word_epoch	热水	hot water	314
+945.0	3.0	945000	word_epoch	问题	problem	315
+948.0	3.0	948000	word_epoch	凳子	stool	316
+951.0	3.0	951000	word_epoch	蒜泥	garlic paste	317
+954.0	3.0	954000	word_epoch	外卖	takeouts	318
+957.0	3.0	957000	word_epoch	厕所	toilet	319
+960.0	3.0	960000	word_epoch	米饭	rice	320
+963.0	3.0	963000	word_epoch	毛巾	towel	321
+966.0	3.0	966000	word_epoch	碗	bowl	322
+969.0	3.0	969000	word_epoch	软糖	gummies	323
+972.0	3.0	972000	word_epoch	看	look	324
+975.0	3.0	975000	word_epoch	关门	close the door	325
+978.0	3.0	978000	word_epoch	怎样	how	326
+981.0	3.0	981000	word_epoch	换药	change dressing	327
+984.0	3.0	984000	word_epoch	帮助	help	328
+987.0	3.0	987000	word_epoch	家人	family	329
+990.0	3.0	990000	word_epoch	音乐	music	330
+993.0	3.0	993000	word_epoch	需要	need	331
+996.0	3.0	996000	word_epoch	吃	eat	332
+999.0	3.0	999000	word_epoch	凳子	stool	333
+1002.0	3.0	1002000	word_epoch	头疼	headache	334
+1005.0	3.0	1005000	word_epoch	放在	put on	335
+1008.0	3.0	1008000	word_epoch	给	give	336
+1011.0	3.0	1011000	word_epoch	橙汁	orange juice	337
+1014.0	3.0	1014000	word_epoch	朋友	friend	338
+1017.0	3.0	1017000	word_epoch	葱花	chopped green onion	339
+1020.0	3.0	1020000	word_epoch	脸盆	washbasin	340
+1023.0	3.0	1023000	word_epoch	嘴巴	mouth	341
+1026.0	3.0	1026000	word_epoch	电脑	computer	342
+1029.0	3.0	1029000	word_epoch	软糖	gummies	343
+1032.0	3.0	1032000	word_epoch	看	look	344
+1035.0	3.0	1035000	word_epoch	醋	vinegar	345
+1038.0	3.0	1038000	word_epoch	嘴巴	mouth	346
+1041.0	3.0	1041000	word_epoch	玩	play	347
+1044.0	3.0	1044000	word_epoch	丝瓜	loofah	348
+1047.0	3.0	1047000	word_epoch	钢琴	piano	349
+1050.0	3.0	1050000	word_epoch	吃	eat	350
+1053.0	3.0	1053000	word_epoch	衣服	clothes	351
+1056.0	3.0	1056000	word_epoch	厕所	toilet	352
+1059.0	3.0	1059000	word_epoch	喝	drink	353
+1062.0	3.0	1062000	word_epoch	愿意	willing	354
+1065.0	3.0	1065000	word_epoch	丝瓜	loofah	355
+1068.0	3.0	1068000	word_epoch	关门	close the door	356
+1071.0	3.0	1071000	word_epoch	我	I	357
+1074.0	3.0	1074000	word_epoch	米饭	rice	358
+1077.0	3.0	1077000	word_epoch	朋友	friend	359
+1080.0	3.0	1080000	word_epoch	有	have	360
+1083.0	3.0	1083000	word_epoch	醋	vinegar	361
+1086.0	3.0	1086000	word_epoch	喝	drink	362
+1089.0	3.0	1089000	word_epoch	预约	reserve	363
+1092.0	3.0	1092000	word_epoch	蒜泥	garlic paste	364
+1095.0	3.0	1095000	word_epoch	喝	drink	365
+1098.0	3.0	1098000	word_epoch	穿	wear	366
+1101.0	3.0	1101000	word_epoch	钢琴	piano	367
+1104.0	3.0	1104000	word_epoch	吃	eat	368
+1107.0	3.0	1107000	word_epoch	衣服	clothes	369
+1110.0	3.0	1110000	word_epoch	换药	change dressing	370
+1113.0	3.0	1113000	word_epoch	是	be	371
+1116.0	3.0	1116000	word_epoch	醋	vinegar	372
+1119.0	3.0	1119000	word_epoch	脸盆	washbasin	373
+1122.0	3.0	1122000	word_epoch	你	you	374
+1125.0	3.0	1125000	word_epoch	感觉	feel	375
+1128.0	3.0	1128000	word_epoch	厕所	toilet	376
+1131.0	3.0	1131000	word_epoch	换药	change dressing	377
+1134.0	3.0	1134000	word_epoch	关门	close the door	378
+1137.0	3.0	1137000	word_epoch	小刀	knife	379
+1140.0	3.0	1140000	word_epoch	音乐	music	380
+1143.0	3.0	1143000	word_epoch	青菜	vegetables	381
+1146.0	3.0	1146000	word_epoch	家人	family	382
+1149.0	3.0	1149000	word_epoch	看	look	383
+1152.0	3.0	1152000	word_epoch	找	look for	384
+1155.0	3.0	1155000	word_epoch	汤圆	sweet dumpling	385
+1158.0	3.0	1158000	word_epoch	米饭	rice	386
+1161.0	3.0	1161000	word_epoch	音乐	music	387
+1164.0	3.0	1164000	word_epoch	预约	reserve	388
+1167.0	3.0	1167000	word_epoch	米饭	rice	389
+1170.0	3.0	1170000	word_epoch	脸盆	washbasin	390
+1173.0	3.0	1173000	word_epoch	毛巾	towel	391
+1176.0	3.0	1176000	word_epoch	吃	eat	392
+1179.0	3.0	1179000	word_epoch	怎样	how	393
+1182.0	3.0	1182000	word_epoch	香肠	sausage	394
+1185.0	3.0	1185000	word_epoch	口渴	thirsty	395
+1188.0	3.0	1188000	word_epoch	篮球	basketball	396
+1191.0	3.0	1191000	word_epoch	我	I	397
+1194.0	3.0	1194000	word_epoch	怎样	how	398
+1197.0	3.0	1197000	word_epoch	拿	hold	399
+1200.0	3.0	1200000	word_epoch	问题	problem	400
+1203.0	3.0	1203000	word_epoch	需要	need	401
+1206.0	3.0	1206000	word_epoch	给	give	402
+1209.0	3.0	1209000	word_epoch	猪肉	pork	403
+1212.0	3.0	1212000	word_epoch	丝瓜	loofah	404
+1215.0	3.0	1215000	word_epoch	放在	put on	405
+1218.0	3.0	1218000	word_epoch	衣服	clothes	406
+1221.0	3.0	1221000	word_epoch	面条	noodle	407
+1224.0	3.0	1224000	word_epoch	漂亮	pretty	408
+1227.0	3.0	1227000	word_epoch	帮助	help	409
+1230.0	3.0	1230000	word_epoch	拿	hold	410
+1233.0	3.0	1233000	word_epoch	电脑	computer	411
+1236.0	3.0	1236000	word_epoch	篮球	basketball	412
+1239.0	3.0	1239000	word_epoch	蒜泥	garlic paste	413
+1242.0	3.0	1242000	word_epoch	朋友	friend	414
+1245.0	3.0	1245000	word_epoch	愿意	willing	415
+1248.0	3.0	1248000	word_epoch	厕所	toilet	416
+1251.0	3.0	1251000	word_epoch	给	give	417
+1254.0	3.0	1254000	word_epoch	香肠	sausage	418
+1257.0	3.0	1257000	word_epoch	汤圆	sweet dumpling	419
+1260.0	3.0	1260000	word_epoch	护士	nurse	420
+1263.0	3.0	1263000	word_epoch	预约	reserve	421
+1266.0	3.0	1266000	word_epoch	有	have	422
+1269.0	3.0	1269000	word_epoch	碗	bowl	423
+1272.0	3.0	1272000	word_epoch	漂亮	pretty	424
+1275.0	3.0	1275000	word_epoch	朋友	friend	425
+1278.0	3.0	1278000	word_epoch	菠萝	pineapple	426
+1281.0	3.0	1281000	word_epoch	青菜	vegetables	427
+1284.0	3.0	1284000	word_epoch	软糖	gummies	428
+1287.0	3.0	1287000	word_epoch	家人	family	429
+1290.0	3.0	1290000	word_epoch	外卖	takeouts	430
+1293.0	3.0	1293000	word_epoch	放在	put on	431
+1296.0	3.0	1296000	word_epoch	关门	close the door	432
+1299.0	3.0	1299000	word_epoch	愿意	willing	433
+1302.0	3.0	1302000	word_epoch	热水	hot water	434
+1305.0	3.0	1305000	word_epoch	嘴巴	mouth	435
+1308.0	3.0	1308000	word_epoch	头疼	headache	436
+1311.0	3.0	1311000	word_epoch	凳子	stool	437
+1314.0	3.0	1314000	word_epoch	热水	hot water	438
+1317.0	3.0	1317000	word_epoch	玩	play	439
+1320.0	3.0	1320000	word_epoch	我	I	440
+1323.0	3.0	1323000	word_epoch	电脑	computer	441
+1326.0	3.0	1326000	word_epoch	看	look	442
+1329.0	3.0	1329000	word_epoch	是	be	443
+1332.0	3.0	1332000	word_epoch	玩	play	444
+1335.0	3.0	1335000	word_epoch	面条	noodle	445
+1338.0	3.0	1338000	word_epoch	穿	wear	446
+1341.0	3.0	1341000	word_epoch	嘴巴	mouth	447
+1344.0	3.0	1344000	word_epoch	葱花	chopped green onion	448
+1347.0	3.0	1347000	word_epoch	心情	mood	449
+1350.0	3.0	1350000	word_epoch	喝	drink	450
+1353.0	3.0	1353000	word_epoch	毛巾	towel	451
+1356.0	3.0	1356000	word_epoch	问题	problem	452
+1359.0	3.0	1359000	word_epoch	把	get	453
+1362.0	3.0	1362000	word_epoch	把	get	454
+1365.0	3.0	1365000	word_epoch	小刀	knife	455
+1368.0	3.0	1368000	word_epoch	护士	nurse	456
+1371.0	3.0	1371000	word_epoch	鱼块	steak	457
+1374.0	3.0	1374000	word_epoch	软糖	gummies	458
+1377.0	3.0	1377000	word_epoch	平静	calm	459
+1380.0	3.0	1380000	word_epoch	鱼块	steak	460
+1383.0	3.0	1383000	word_epoch	头疼	headache	461
+1386.0	3.0	1386000	word_epoch	感觉	feel	462
+1389.0	3.0	1389000	word_epoch	葱花	chopped green onion	463
+1392.0	3.0	1392000	word_epoch	帮助	help	464
+1395.0	3.0	1395000	word_epoch	需要	need	465
+1398.0	3.0	1398000	word_epoch	碗	bowl	466
+1401.0	3.0	1401000	word_epoch	蒜泥	garlic paste	467
+1404.0	3.0	1404000	word_epoch	口渴	thirsty	468
+1407.0	3.0	1407000	word_epoch	手机	cell phone	469
+1410.0	3.0	1410000	word_epoch	丝瓜	loofah	470
+1413.0	3.0	1413000	word_epoch	找	look for	471
+1416.0	3.0	1416000	word_epoch	菠萝	pineapple	472
+1419.0	3.0	1419000	word_epoch	橙汁	orange juice	473
+1422.0	3.0	1422000	word_epoch	手机	cell phone	474
+1425.0	3.0	1425000	word_epoch	有	have	475
+1428.0	3.0	1428000	word_epoch	心情	mood	476
+1431.0	3.0	1431000	word_epoch	橙汁	orange juice	477
+1434.0	3.0	1434000	word_epoch	猪肉	pork	478
+1437.0	3.0	1437000	word_epoch	你	you	479
+1440.0	3.0	1440000	word_epoch	豆腐	tofu	480
+1443.0	3.0	1443000	word_epoch	钢琴	piano	481
+1446.0	3.0	1446000	word_epoch	凳子	stool	482
+1449.0	3.0	1449000	word_epoch	平静	calm	483
+1452.0	3.0	1452000	word_epoch	醋	vinegar	484
+1455.0	3.0	1455000	word_epoch	豆腐	tofu	485
+1458.0	3.0	1458000	word_epoch	外卖	takeouts	486
+1461.0	3.0	1461000	word_epoch	青菜	vegetables	487
+1464.0	3.0	1464000	word_epoch	厕所	toilet	488
+1467.0	3.0	1467000	word_epoch	心情	mood	489
+1470.0	3.0	1470000	word_epoch	蒜泥	garlic paste	490
+1473.0	3.0	1473000	word_epoch	我	I	491
+1476.0	3.0	1476000	word_epoch	猪肉	pork	492
+1479.0	3.0	1479000	word_epoch	问题	problem	493
+1482.0	3.0	1482000	word_epoch	把	get	494
+1485.0	3.0	1485000	word_epoch	小刀	knife	495
+1488.0	3.0	1488000	word_epoch	喝	drink	496
+1491.0	3.0	1491000	word_epoch	面条	noodle	497
+1494.0	3.0	1494000	word_epoch	橙汁	orange juice	498
+1497.0	3.0	1497000	word_epoch	碗	bowl	499
+1500.0	3.0	1500000	word_epoch	把	get	500
+1503.0	3.0	1503000	word_epoch	头疼	headache	501
+1506.0	3.0	1506000	word_epoch	软糖	gummies	502
+1509.0	3.0	1509000	word_epoch	找	look for	503
+1512.0	3.0	1512000	word_epoch	你	you	504
+1515.0	3.0	1515000	word_epoch	醋	vinegar	505
+1518.0	3.0	1518000	word_epoch	穿	wear	506
+1521.0	3.0	1521000	word_epoch	脸盆	washbasin	507
+1524.0	3.0	1524000	word_epoch	米饭	rice	508
+1527.0	3.0	1527000	word_epoch	拿	hold	509
+1530.0	3.0	1530000	word_epoch	换药	change dressing	510
+1533.0	3.0	1533000	word_epoch	橙汁	orange juice	511
+1536.0	3.0	1536000	word_epoch	换药	change dressing	512
+1539.0	3.0	1539000	word_epoch	家人	family	513
+1542.0	3.0	1542000	word_epoch	需要	need	514
+1545.0	3.0	1545000	word_epoch	面条	noodle	515
+1548.0	3.0	1548000	word_epoch	音乐	music	516
+1551.0	3.0	1551000	word_epoch	有	have	517
+1554.0	3.0	1554000	word_epoch	家人	family	518
+1557.0	3.0	1557000	word_epoch	丝瓜	loofah	519
+1560.0	3.0	1560000	word_epoch	是	be	520
+1563.0	3.0	1563000	word_epoch	找	look for	521
+1566.0	3.0	1566000	word_epoch	玩	play	522
+1569.0	3.0	1569000	word_epoch	厕所	toilet	523
+1572.0	3.0	1572000	word_epoch	豆腐	tofu	524
+1575.0	3.0	1575000	word_epoch	问题	problem	525
+1578.0	3.0	1578000	word_epoch	碗	bowl	526
+1581.0	3.0	1581000	word_epoch	怎样	how	527
+1584.0	3.0	1584000	word_epoch	口渴	thirsty	528
+1587.0	3.0	1587000	word_epoch	拿	hold	529
+1590.0	3.0	1590000	word_epoch	篮球	basketball	530
+1593.0	3.0	1593000	word_epoch	嘴巴	mouth	531
+1596.0	3.0	1596000	word_epoch	热水	hot water	532
+1599.0	3.0	1599000	word_epoch	看	look	533
+1602.0	3.0	1602000	word_epoch	醋	vinegar	534
+1605.0	3.0	1605000	word_epoch	放在	put on	535
+1608.0	3.0	1608000	word_epoch	衣服	clothes	536
+1611.0	3.0	1611000	word_epoch	篮球	basketball	537
+1614.0	3.0	1614000	word_epoch	米饭	rice	538
+1617.0	3.0	1617000	word_epoch	小刀	knife	539
+1620.0	3.0	1620000	word_epoch	帮助	help	540
+1623.0	3.0	1623000	word_epoch	预约	reserve	541
+1626.0	3.0	1626000	word_epoch	嘴巴	mouth	542
+1629.0	3.0	1629000	word_epoch	有	have	543
+1632.0	3.0	1632000	word_epoch	给	give	544
+1635.0	3.0	1635000	word_epoch	脸盆	washbasin	545
+1638.0	3.0	1638000	word_epoch	愿意	willing	546
+1641.0	3.0	1641000	word_epoch	朋友	friend	547
+1644.0	3.0	1644000	word_epoch	吃	eat	548
+1647.0	3.0	1647000	word_epoch	凳子	stool	549
+1650.0	3.0	1650000	word_epoch	愿意	willing	550
+1653.0	3.0	1653000	word_epoch	钢琴	piano	551
+1656.0	3.0	1656000	word_epoch	蒜泥	garlic paste	552
+1659.0	3.0	1659000	word_epoch	帮助	help	553
+1662.0	3.0	1662000	word_epoch	香肠	sausage	554
+1665.0	3.0	1665000	word_epoch	电脑	computer	555
+1668.0	3.0	1668000	word_epoch	你	you	556
+1671.0	3.0	1671000	word_epoch	青菜	vegetables	557
+1674.0	3.0	1674000	word_epoch	音乐	music	558
+1677.0	3.0	1677000	word_epoch	护士	nurse	559
+1680.0	3.0	1680000	word_epoch	葱花	chopped green onion	560
+1683.0	3.0	1683000	word_epoch	软糖	gummies	561
+1686.0	3.0	1686000	word_epoch	吃	eat	562
+1689.0	3.0	1689000	word_epoch	毛巾	towel	563
+1692.0	3.0	1692000	word_epoch	鱼块	steak	564
+1695.0	3.0	1695000	word_epoch	看	look	565
+1698.0	3.0	1698000	word_epoch	朋友	friend	566
+1701.0	3.0	1701000	word_epoch	护士	nurse	567
+1704.0	3.0	1704000	word_epoch	猪肉	pork	568
+1707.0	3.0	1707000	word_epoch	毛巾	towel	569
+1710.0	3.0	1710000	word_epoch	给	give	570
+1713.0	3.0	1713000	word_epoch	需要	need	571
+1716.0	3.0	1716000	word_epoch	手机	cell phone	572
+1719.0	3.0	1719000	word_epoch	热水	hot water	573
+1722.0	3.0	1722000	word_epoch	平静	calm	574
+1725.0	3.0	1725000	word_epoch	心情	mood	575
+1728.0	3.0	1728000	word_epoch	豆腐	tofu	576
+1731.0	3.0	1731000	word_epoch	外卖	takeouts	577
+1734.0	3.0	1734000	word_epoch	漂亮	pretty	578
+1737.0	3.0	1737000	word_epoch	香肠	sausage	579
+1740.0	3.0	1740000	word_epoch	放在	put on	580
+1743.0	3.0	1743000	word_epoch	鱼块	steak	581
+1746.0	3.0	1746000	word_epoch	怎样	how	582
+1749.0	3.0	1749000	word_epoch	葱花	chopped green onion	583
+1752.0	3.0	1752000	word_epoch	菠萝	pineapple	584
+1755.0	3.0	1755000	word_epoch	钢琴	piano	585
+1758.0	3.0	1758000	word_epoch	手机	cell phone	586
+1761.0	3.0	1761000	word_epoch	汤圆	sweet dumpling	587
+1764.0	3.0	1764000	word_epoch	凳子	stool	588
+1767.0	3.0	1767000	word_epoch	口渴	thirsty	589
+1770.0	3.0	1770000	word_epoch	衣服	clothes	590
+1773.0	3.0	1773000	word_epoch	穿	wear	591
+1776.0	3.0	1776000	word_epoch	外卖	takeouts	592
+1779.0	3.0	1779000	word_epoch	喝	drink	593
+1782.0	3.0	1782000	word_epoch	关门	close the door	594
+1785.0	3.0	1785000	word_epoch	漂亮	pretty	595
+1788.0	3.0	1788000	word_epoch	关门	close the door	596
+1791.0	3.0	1791000	word_epoch	感觉	feel	597
+1794.0	3.0	1794000	word_epoch	我	I	598
+1797.0	3.0	1797000	word_epoch	预约	reserve	599
+1800.0	3.0	1800000	word_epoch	电脑	computer	600
+1803.0	3.0	1803000	word_epoch	是	be	601
+1806.0	3.0	1806000	word_epoch	玩	play	602
+1809.0	3.0	1809000	word_epoch	感觉	feel	603
+1812.0	3.0	1812000	word_epoch	丝瓜	loofah	604
+1815.0	3.0	1815000	word_epoch	菠萝	pineapple	605
+1818.0	3.0	1818000	word_epoch	头疼	headache	606
+1821.0	3.0	1821000	word_epoch	平静	calm	607
+1824.0	3.0	1824000	word_epoch	汤圆	sweet dumpling	608

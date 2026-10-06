@@ -1,0 +1,692 @@
+{
+  "source": "https://huggingface.co/datasets/liulab-repository/Du-IN",
+  "revision": "2c85b670230dced33f2f1cbd0903648680ecc7d0",
+  "license": "CC-BY-4.0 (Hugging Face dataset card)",
+  "copied": "All data/ pickles (data + info per run), README.md, .gitattributes, byte-identical, sha256 checked against the acquisition receipt.",
+  "not_copied": {
+    "pretrains/": "Model checkpoints (PyTorch pickles) and training parameters of the Du-IN models: not recordings. Available from the same Hugging Face revision."
+  },
+  "warning": "The data/info files are Python pickles. Do not unpickle untrusted files with pickle.load; code/laneJ_pkl.py is a restricted unpickler that only admits the globals these files use.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 2544,
+      "sha256": "3cc07c05012613f669856e67f4aeb428fa250ead9c81c3e8356c00143fe321e5"
+    },
+    {
+      "path": "README.md",
+      "size": 30,
+      "sha256": "8f0c7e5b67cd5f155f6570a713fd5f75ed8202614734e37df3566efa045460d2"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1045849407,
+      "sha256": "28b55d16e1a64908997cf61a048cf3e88efb26dfb994eec14dfec7d409aa0178"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "fd6bf842f528f1c912ee38bd43b13bc5c52f1656e9624c0c2e3ef474233a261c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1205597275,
+      "sha256": "21a749c1116f0515206d8abee3499e72f388779329864814ba1bc173a5206e0a"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "fd6bf842f528f1c912ee38bd43b13bc5c52f1656e9624c0c2e3ef474233a261c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1272990883,
+      "sha256": "2dbbac9c7a440d84d63187f40309918ab9fc65e07f6c9e42b7f33df8da04b955"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "fd6bf842f528f1c912ee38bd43b13bc5c52f1656e9624c0c2e3ef474233a261c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1410274184,
+      "sha256": "3cf4e5bbd27b45717d8ca125263bb894f194efcaceccb27dfa6b47912f322538"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "fd6bf842f528f1c912ee38bd43b13bc5c52f1656e9624c0c2e3ef474233a261c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1470179579,
+      "sha256": "abb7c0bf13a6e79ed5d8db3cb7eadb8d6b92377614ff2c1fdeded46eb48cca9b"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "fd6bf842f528f1c912ee38bd43b13bc5c52f1656e9624c0c2e3ef474233a261c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1245534233,
+      "sha256": "1df6565e30108d7309625fb9ca0f70e0b2bdca07be8107d52f07b116d1f05f7c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/001/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "fd6bf842f528f1c912ee38bd43b13bc5c52f1656e9624c0c2e3ef474233a261c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1675359170,
+      "sha256": "404abcab2ef07c09d868f2459767f65871fabc236875c9d34b0717cf95c87afd"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 821,
+      "sha256": "3bb2a71cca2a273794f7945b05dafb82578ccf5fca2360439f8069566b76e05e"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1683639359,
+      "sha256": "0386e69bb24878b85a56b2a80995e4989e71caf845cd22c6302cf2d1f2770219"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 821,
+      "sha256": "3bb2a71cca2a273794f7945b05dafb82578ccf5fca2360439f8069566b76e05e"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1683639359,
+      "sha256": "791fc4a8b56852696df88d85678704dbac1bba5eb648823211b11df2bd6d63af"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 821,
+      "sha256": "3bb2a71cca2a273794f7945b05dafb82578ccf5fca2360439f8069566b76e05e"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1683639359,
+      "sha256": "134a93553ef6210d484fa715bbdbea96f7a58ccad4696615d7d3dc15c65dca95"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 821,
+      "sha256": "3bb2a71cca2a273794f7945b05dafb82578ccf5fca2360439f8069566b76e05e"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1683639359,
+      "sha256": "feab581dbb2ae64993748ec589783007debc08f33cf1493f6eecde8ef9a67d40"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 821,
+      "sha256": "3bb2a71cca2a273794f7945b05dafb82578ccf5fca2360439f8069566b76e05e"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1595317339,
+      "sha256": "09a3a5ce7984a7094eba4bad59755c4a0275f20ee4688cd55f5b6e59af842f5d"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/002/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 821,
+      "sha256": "3bb2a71cca2a273794f7945b05dafb82578ccf5fca2360439f8069566b76e05e"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 964836184,
+      "sha256": "e9e8236afea0ef9a0f93c160876644267d7949df4fa81f24fe671acd836a4863"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 514,
+      "sha256": "69fc964d68057b0918201e8d6c46968adf5268daa411478376d7bf6884e539b6"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 961620119,
+      "sha256": "c3ebb3ed03894284da9c20fb9f0c783797244b662ba26135add0dd03e7181679"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 514,
+      "sha256": "69fc964d68057b0918201e8d6c46968adf5268daa411478376d7bf6884e539b6"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 948755670,
+      "sha256": "076eb04a0239a8f803733c87606f5806f03b9c5a3c127bb996312b6b634e6612"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 514,
+      "sha256": "69fc964d68057b0918201e8d6c46968adf5268daa411478376d7bf6884e539b6"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 932675033,
+      "sha256": "b5df3368406327792c19f647508a5e40b255376a1297d78f37e9bd41ce2b2a73"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 514,
+      "sha256": "69fc964d68057b0918201e8d6c46968adf5268daa411478376d7bf6884e539b6"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 792773912,
+      "sha256": "b17e24e8b26c265fb6246905d1dabdd976cb3adcfc214bbb88942080f8f59bce"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 514,
+      "sha256": "69fc964d68057b0918201e8d6c46968adf5268daa411478376d7bf6884e539b6"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 934283166,
+      "sha256": "2b171b587df04affd366c4e78de14c384a555782c75ebab966138343402a46d1"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/003/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 514,
+      "sha256": "69fc964d68057b0918201e8d6c46968adf5268daa411478376d7bf6884e539b6"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1464036839,
+      "sha256": "c948bf838132c0722189e6603d6458edf70d0448a50b55ea4c33abd379b1ace9"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "d2fb072460bd7bb59b5ec1a9629da424e7fce9e6fe99789b864e162cad527cea"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1461636781,
+      "sha256": "62ca3b82bb683bb61b3071cb0468400d2bdbaf31bef6a5c64aeaa5d57a9fa3b1"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "d2fb072460bd7bb59b5ec1a9629da424e7fce9e6fe99789b864e162cad527cea"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1461636751,
+      "sha256": "e542e0fd3ab8b148df4134f7cfcf5dbadb177986d960963c17fc7312ede62a75"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "d2fb072460bd7bb59b5ec1a9629da424e7fce9e6fe99789b864e162cad527cea"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1456836683,
+      "sha256": "fc81689c1e2f45636b09c6827a5718a9131fb6e27a200d0255b9f7d847dafcfa"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "d2fb072460bd7bb59b5ec1a9629da424e7fce9e6fe99789b864e162cad527cea"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1459236720,
+      "sha256": "4126902fbddab76a8358a3d3c332f263ced22c034e37c73e7865fa192c51bebe"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/004/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "d2fb072460bd7bb59b5ec1a9629da424e7fce9e6fe99789b864e162cad527cea"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1800759359,
+      "sha256": "757dd434bcafb244bb7e95ede4fd82f631680ef23f9e24062899a553814fdf95"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 708,
+      "sha256": "81e1e61e299e96b4d22b109c40300fa5b2baee40f7d7e41f1189f9bc3d81c338"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1797807297,
+      "sha256": "829155fbcd1231102eca16cf3b6685f883a90a3d91b0bc604ca8a66cdf418457"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 708,
+      "sha256": "81e1e61e299e96b4d22b109c40300fa5b2baee40f7d7e41f1189f9bc3d81c338"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1800759359,
+      "sha256": "11f0d874134d15fdd64796bfe064eb482e9749ef03e1098ce04be363e63ffdcc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 708,
+      "sha256": "81e1e61e299e96b4d22b109c40300fa5b2baee40f7d7e41f1189f9bc3d81c338"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1800759359,
+      "sha256": "90f23ae9b5191914e0d7c1dfddaad82dd15af34e4e4f22e4ae8a590ebf65ac69"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 708,
+      "sha256": "81e1e61e299e96b4d22b109c40300fa5b2baee40f7d7e41f1189f9bc3d81c338"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1797807294,
+      "sha256": "5c4c590c1bd37071a4ec1cb1646a3bdfd6bccfde48ccbc9545f6bbabcfc411c5"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/005/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 708,
+      "sha256": "81e1e61e299e96b4d22b109c40300fa5b2baee40f7d7e41f1189f9bc3d81c338"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1384138469,
+      "sha256": "04f003085f5c10faadcf72f1ff9206047c1b8d3733e9db91f3715923ce046b61"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 602,
+      "sha256": "5c3a4f5f7b006101d545102216af056ed2d6ddd5ecdb78e6f29fb2284ae9bb57"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1403531035,
+      "sha256": "29d522e78a58b73fc214756b38a5c42940c0751fc92c53797de0be409821af03"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 602,
+      "sha256": "5c3a4f5f7b006101d545102216af056ed2d6ddd5ecdb78e6f29fb2284ae9bb57"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1250815234,
+      "sha256": "d9b6927c66ec5b0db69267f36e8b12bcef3a37e8122f7bb5e3d194ebf6b8900a"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 602,
+      "sha256": "5c3a4f5f7b006101d545102216af056ed2d6ddd5ecdb78e6f29fb2284ae9bb57"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1299296352,
+      "sha256": "36c640d7ec0a0cd0b536b297a7c68239f610be53d0907f820f20411335cb4df8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 602,
+      "sha256": "5c3a4f5f7b006101d545102216af056ed2d6ddd5ecdb78e6f29fb2284ae9bb57"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1432619701,
+      "sha256": "aeff3a0cabdd805331016f01879a95ec80500f7ee3f072b07b805f03e86b89cc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 602,
+      "sha256": "5c3a4f5f7b006101d545102216af056ed2d6ddd5ecdb78e6f29fb2284ae9bb57"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1386562515,
+      "sha256": "b6f33e17ab4c8d3358e905bff95b3b098e20b7d02c706fe0f51de3f511cd9099"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/006/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 602,
+      "sha256": "5c3a4f5f7b006101d545102216af056ed2d6ddd5ecdb78e6f29fb2284ae9bb57"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1369428665,
+      "sha256": "5e57bd043b1b134b8b5c974838f5a7ae5e8daa288fd7826ee0c1d583715e6d77"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 551,
+      "sha256": "5bc4f0dc07f49f48183a448fef3f208195d94f9214ffb4a593865c822d05e4c8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1281442331,
+      "sha256": "3dc165c0f4c9b4fca9f6ddb47bab15698fd44ea885ecabd22c75b847fc839ebc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 551,
+      "sha256": "5bc4f0dc07f49f48183a448fef3f208195d94f9214ffb4a593865c822d05e4c8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1358148414,
+      "sha256": "eec1f8310449aceb6876e63e8b2cda1c0000e67be295ed614cd62605d33d5a69"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 551,
+      "sha256": "5bc4f0dc07f49f48183a448fef3f208195d94f9214ffb4a593865c822d05e4c8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1290466572,
+      "sha256": "8c96d495384af5439282d75ed62ba6fd229a6e8cc8a8be7e4829c33a2dd5f4f9"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 551,
+      "sha256": "5bc4f0dc07f49f48183a448fef3f208195d94f9214ffb4a593865c822d05e4c8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1335587810,
+      "sha256": "dfb6cb532f412719987b3ed681adf3a7f4c4f158b97f61cf7f8419fc1cb61e0a"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 551,
+      "sha256": "5bc4f0dc07f49f48183a448fef3f208195d94f9214ffb4a593865c822d05e4c8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1364916591,
+      "sha256": "312e153e504e7266fe121d9f3c9ca563384128a73196ebb2ebe8a15a3f2e8249"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/007/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 551,
+      "sha256": "5bc4f0dc07f49f48183a448fef3f208195d94f9214ffb4a593865c822d05e4c8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1432404778,
+      "sha256": "4a419d61a8b99fc98e9daa015823e81222d88a8e68e79114efecebc0fafc1ae7"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "907fd8344fd4bf3510dab5a0a5152dde66c06d475d87d06e3f6cd36b4822ea90"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1425348574,
+      "sha256": "9bc932fcbfa52b837047d3b6c810e99b86a2e8df0cee067b37a8220d56673669"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "907fd8344fd4bf3510dab5a0a5152dde66c06d475d87d06e3f6cd36b4822ea90"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1432404754,
+      "sha256": "c373a74f0a7c1d1d13cdce731aae152ef229bfd1f0847b7868acebf6eaa9525d"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "907fd8344fd4bf3510dab5a0a5152dde66c06d475d87d06e3f6cd36b4822ea90"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1394771796,
+      "sha256": "529b91758a7916c76bb930e21b8f1e33832472afc7d5fe4df1b88c8957771be9"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "907fd8344fd4bf3510dab5a0a5152dde66c06d475d87d06e3f6cd36b4822ea90"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1432404751,
+      "sha256": "aaf33ace2868a3e53ac9208168d51f0b84058bd14283ba94540dc9ef74986403"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "907fd8344fd4bf3510dab5a0a5152dde66c06d475d87d06e3f6cd36b4822ea90"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1415940330,
+      "sha256": "cbbb16666858c9263073c6274cbfd94d7f4a192d327f6fc21e17157d05058044"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/008/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 671,
+      "sha256": "907fd8344fd4bf3510dab5a0a5152dde66c06d475d87d06e3f6cd36b4822ea90"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 2148588778,
+      "sha256": "8e36964beca99b0b71f9723174e5a0b74433579aab1d4a8f811d01ea3ed8c51a"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 842,
+      "sha256": "bf64512a6e044aca6f549cb9ef171a881722425e460517c6c525a4c7ba73bebc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 2141532713,
+      "sha256": "67dbacb0aa4588e3e2ac3bf37e8e7dd4c0c0a93ba4662f98a2b2cc6a237c8cc1"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 842,
+      "sha256": "bf64512a6e044aca6f549cb9ef171a881722425e460517c6c525a4c7ba73bebc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 2141532716,
+      "sha256": "b8d46de5b76ee3045d917e93b3ca5d2c2c6c8b0f8496e5a27837adf080fed118"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 842,
+      "sha256": "bf64512a6e044aca6f549cb9ef171a881722425e460517c6c525a4c7ba73bebc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1951017380,
+      "sha256": "59a5f847b378f92f2bd72c8f8368bfb61f921d563f6e811e9049dd56a76c033c"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 842,
+      "sha256": "bf64512a6e044aca6f549cb9ef171a881722425e460517c6c525a4c7ba73bebc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1767558318,
+      "sha256": "261cad77851766cc1a09077abe08f5d1197dba68226fa9480af330d8f38cd192"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 842,
+      "sha256": "bf64512a6e044aca6f549cb9ef171a881722425e460517c6c525a4c7ba73bebc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 2102723952,
+      "sha256": "d211683fbeae6007723ea3278ab42fea4eef32dab6fa8254a1e3dcc775b38610"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/009/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 842,
+      "sha256": "bf64512a6e044aca6f549cb9ef171a881722425e460517c6c525a4c7ba73bebc"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1246115724,
+      "sha256": "5619fd1c22ab3a0526a3b8b596f31140ae0c29dd549801075eb4f1f8c8593368"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "c0616b0bd65b71b6cf6d3af9cb54f01e6b5098820961e7ca75bea2f2a3c4b706"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1189090044,
+      "sha256": "c1ee86092ee14c4b68a46494898cf51ad92b6e78069b1df96e790c8e76221a58"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "c0616b0bd65b71b6cf6d3af9cb54f01e6b5098820961e7ca75bea2f2a3c4b706"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1267236271,
+      "sha256": "b9e423c99e348f68354929a150e28af7b94a4befcec21305e2f0e5219eca8ad9"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "c0616b0bd65b71b6cf6d3af9cb54f01e6b5098820961e7ca75bea2f2a3c4b706"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1241891569,
+      "sha256": "53be9a075269516e91e7e2d4a52da17f479aae280476c9be43979bbce2b863a1"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "c0616b0bd65b71b6cf6d3af9cb54f01e6b5098820961e7ca75bea2f2a3c4b706"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 1224995036,
+      "sha256": "42cd7caee46ed16d09939413cf3d05883eb3de6b826df0a5dffcd20197bfcc91"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "c0616b0bd65b71b6cf6d3af9cb54f01e6b5098820961e7ca75bea2f2a3c4b706"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1224995111,
+      "sha256": "8d0e33165b1f4b74d23e769ba8e79798e5ddc5a5401451a344c07baa73c46554"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/010/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 597,
+      "sha256": "c0616b0bd65b71b6cf6d3af9cb54f01e6b5098820961e7ca75bea2f2a3c4b706"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 1315479297,
+      "sha256": "c3a9e1ca0fcd13836965509d706386f7ea25714f8063b12f518e30298a3d7b70"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 546,
+      "sha256": "73359495e7d73d54c0c8af61a4e5b7355e3480aa5f3b0b18cb6e9aed9c8171a7"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 1172915076,
+      "sha256": "e97808bafa2f455c432d77279b92ff6cfeaa912c3ca39fc28be29b2b43ac7f2b"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 546,
+      "sha256": "73359495e7d73d54c0c8af61a4e5b7355e3480aa5f3b0b18cb6e9aed9c8171a7"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 1315479297,
+      "sha256": "e8581401efe8413314a1b550b044755e1ae1d7d04c86e2fe6cdd0e0b4aadfac8"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 546,
+      "sha256": "73359495e7d73d54c0c8af61a4e5b7355e3480aa5f3b0b18cb6e9aed9c8171a7"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run4/dataset.bipolar.default.unaligned/data",
+      "size": 1131873841,
+      "sha256": "9267ce3a51db187d7a8de6a21fd9b23a5a795b3993a14d2b7c827eabf0bd31d5"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run4/dataset.bipolar.default.unaligned/info",
+      "size": 546,
+      "sha256": "73359495e7d73d54c0c8af61a4e5b7355e3480aa5f3b0b18cb6e9aed9c8171a7"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run5/dataset.bipolar.default.unaligned/data",
+      "size": 719301609,
+      "sha256": "34bd3f8a8f4a7b06cc2b32f3b82f6b3dc27599d49298fda5efcad8a800f8b614"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run5/dataset.bipolar.default.unaligned/info",
+      "size": 546,
+      "sha256": "73359495e7d73d54c0c8af61a4e5b7355e3480aa5f3b0b18cb6e9aed9c8171a7"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run6/dataset.bipolar.default.unaligned/data",
+      "size": 1172915091,
+      "sha256": "e8b456df00cf6605cd676ede5bf26d5c645c89c29ea071ce0b1bcf7d82f7c180"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/011/word-recitation/run6/dataset.bipolar.default.unaligned/info",
+      "size": 546,
+      "sha256": "73359495e7d73d54c0c8af61a4e5b7355e3480aa5f3b0b18cb6e9aed9c8171a7"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/012/word-recitation/run1/dataset.bipolar.default.unaligned/data",
+      "size": 907716812,
+      "sha256": "0565c6a129005520f4904841793d894768f8657cbb8f7661cc3a901922248e76"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/012/word-recitation/run1/dataset.bipolar.default.unaligned/info",
+      "size": 480,
+      "sha256": "268ab65df6cc98ddca00e1f48f3c85d87d2a3f13d73e51a31809d8a983e37627"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/012/word-recitation/run2/dataset.bipolar.default.unaligned/data",
+      "size": 907716839,
+      "sha256": "fac1791f10c4e87408159dd377da2db3bd682a04336a6c35d2f18fd8c1183b2f"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/012/word-recitation/run2/dataset.bipolar.default.unaligned/info",
+      "size": 480,
+      "sha256": "268ab65df6cc98ddca00e1f48f3c85d87d2a3f13d73e51a31809d8a983e37627"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/012/word-recitation/run3/dataset.bipolar.default.unaligned/data",
+      "size": 907716839,
+      "sha256": "9fbf58697621b8e87f9c9a88367835fe20a4836e389cde653905113c139384f5"
+    },
+    {
+      "path": "data/seeg.he2023xuanwu/012/word-recitation/run3/dataset.bipolar.default.unaligned/info",
+      "size": 480,
+      "sha256": "268ab65df6cc98ddca00e1f48f3c85d87d2a3f13d73e51a31809d8a983e37627"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Name": "Du-IN Chinese word-reading sEEG (Zheng et al., NeurIPS 2024): authors' preprocessed 3-s epochs, 12 subjects, 61 words",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Hui Zheng",
+    "Hai-Teng Wang",
+    "Wei-Bang Jiang",
+    "Zhong-Tao Chen",
+    "Li He",
+    "Pei-Yang Lin",
+    "Peng-Hu Wei",
+    "Guo-Guang Zhao",
+    "Yun-Zhe Liu"
+  ],
+  "HowToAcknowledge": "Cite Zheng H, Wang H-T, Jiang W-B, Chen Z-T, He L, Lin P-Y, Wei P-H, Zhao G-G, Liu Y-Z. Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals. Advances in Neural Information Processing Systems 37 (NeurIPS 2024), doi:10.52202/079017-2542 (arXiv:2405.11459), and the data release https://huggingface.co/datasets/liulab-repository/Du-IN.",
+  "Funding": [
+    "National Science and Technology Innovation 2030 Major Program (2022ZD0205500)",
+    "National Natural Science Foundation of China (32271093)",
+    "Beijing Natural Science Foundation (Z230010, L222033)",
+    "Fundamental Research Funds for the Central Universities"
+  ],
+  "EthicsApprovals": [
+    "The authors state: \"Experiments that contribute to this work were approved by IRB. All subjects consent to participate.\" The approving board is not named in the paper."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.52202/079017-2542",
+    "https://arxiv.org/abs/2405.11459",
+    "https://huggingface.co/datasets/liulab-repository/Du-IN",
+    "https://github.com/liulab-repository/Du-IN"
+  ],
+  "Keywords": [
+    "iEEG",
+    "sEEG",
+    "speech production",
+    "word reading",
+    "Mandarin Chinese",
+    "speech decoding",
+    "epochs",
+    "preprocessed",
+    "derivative"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Du-IN authors' preprocessing",
+      "Description": "Paper section 4.2: band-pass 0.5-200 Hz, 50 Hz notch, resampling from 2000 Hz to 1000 Hz, bipolar re-reference, then segmentation into 3-s word-reading samples (released variant: dataset.bipolar.default.unaligned). Performed by the authors before release; the continuous recordings were not shared.",
+      "CodeURL": "https://github.com/liulab-repository/Du-IN"
+    },
+    {
+      "Name": "laneJ_convert.py",
+      "Description": "BIDS packaging only (no signal processing): each run's epochs written back to back to one BrainVision float32 file (RecordingType epoched, EpochLength 3 s); word labels transcribed to events.tsv; source pickles copied byte-identically to sourcedata/. Code in code/."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://huggingface.co/datasets/liulab-repository/Du-IN",
+      "Version": "2c85b670230dced33f2f1cbd0903648680ecc7d0"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "source_file": {
+    "Description": "Path (within this dataset) of the original pickled epochs file the recording was packaged from."
+  }
+}

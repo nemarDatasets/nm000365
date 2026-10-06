@@ -1,0 +1,8 @@
+{
+  "name": {
+    "Description": "Channel names exactly as released (bipolar derivations named by the authors; the contact pairing is not stated). Listed because BIDS iEEG requires an electrodes file; no coordinates were released, so x, y, z and size are n/a. Nothing was estimated."
+  },
+  "group": {
+    "Description": "Electrode shaft: name prefix before the contact number."
+  }
+}

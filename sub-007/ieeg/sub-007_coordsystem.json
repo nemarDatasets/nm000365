@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates or anatomical labels are included in the Du-IN release (Hugging Face liulab-repository/Du-IN); x, y, z in electrodes.tsv are n/a."
+}
