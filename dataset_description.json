@@ -14,6 +14,7 @@
     "Guo-Guang Zhao",
     "Yun-Zhe Liu"
   ],
+  "Acknowledgements": "From Zheng et al. (2024), Acknowledgements: \"We would like to extend our sincere appreciation to Dr. Zhi-Feng Yue for his coordination and support in securing the computing resources essential for this study. Besides, we also sincerely appreciate the LaBram team for their valuable discussion on the visual design of Figure 2 and Figure 3.\" BIDS packaging for NEMAR by Bruno Aristimunha (see README and CHANGES).",
   "HowToAcknowledge": "Cite Zheng H, Wang H-T, Jiang W-B, Chen Z-T, He L, Lin P-Y, Wei P-H, Zhao G-G, Liu Y-Z. Du-IN: Discrete units-guided mask modeling for decoding speech from Intracranial Neural signals. Advances in Neural Information Processing Systems 37 (NeurIPS 2024), doi:10.52202/079017-2542 (arXiv:2405.11459), and the data release https://huggingface.co/datasets/liulab-repository/Du-IN.",
   "Funding": [
     "National Science and Technology Innovation 2030 Major Program (2022ZD0205500)",

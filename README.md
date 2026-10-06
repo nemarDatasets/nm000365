@@ -23,6 +23,28 @@ non-task recordings used for pre-training are not shared. `dataset_description.j
   consent to participate." The consent form includes a privacy statement and data retention "after deleting all
   personal identification information (PII)". The release contains no names, dates or imaging.
 
+## Additional study details (from the paper, arXiv:2405.11459v3: section 4.1, Appendix A, Ethics Statement, Appendix O)
+
+- Implant: 7 to 13 sEEG depth electrodes per subject; the paper gives 72 to 158 channels per subject at acquisition
+  (the released bipolar channel counts are 62 to 147, see the table below). Electrodes carry 8-16 channels each
+  (section 4.3). "All electrode locations are exclusively dictated by clinical considerations." Most subjects had
+  electrodes on one hemisphere only; the paper shows per-subject electrode locations as figures (Appendix O,
+  Figures 9-11) but no coordinates were released.
+- Recordings: about 15 h of 2000 Hz sEEG per subject, of which about 3 h are task recordings (the part released
+  here) and about 12 h are non-task recordings during wakefulness (not released). The subject's voice was recorded
+  simultaneously during the task; the audio is not part of the release.
+- Word set: 61 words chosen for (1) versatility in generating sentences, (2) expressing basic caregiving needs and
+  (3) covering as many Chinese pronunciation combinations as possible. The design follows Moses et al. (2021).
+- Recording site: not stated explicitly by the paper or the release. Two authors (P.-H. Wei, G.-G. Zhao) are
+  affiliated with Capital Medical University, Xuanwu Hospital, Beijing, and the release directory is named
+  `seeg.he2023xuanwu`. No `InstitutionName` is set in the sidecars for this reason.
+- Amplifier/recording system, electrode manufacturer and acquisition reference are not stated in the paper or the
+  release (left out of the sidecars).
+- Consent (Ethics Statement): adults with full civil capacity signed written informed consent; for minors or
+  participants without full civil capacity, the legal guardian signed. The consent form covers research purpose,
+  risks, data use, a privacy statement (PII not disclosed), data retention after deleting all PII, voluntariness and
+  the right to withdraw at any time.
+
 ## Preprocessing done by the authors (before release)
 
 Paper section 4.2: band-pass 0.5-200 Hz, 50 Hz notch, resampling to 1000 Hz, bipolar re-reference. The signals were
@@ -92,6 +114,26 @@ Packaging only: no filtering, resampling, re-referencing, channel dropping or ep
 read every file back with MNE and compared it with the source pickles. All samples were equal to float32(source),
 and channel order, epoch count, words, onsets and durations matched in all 67 runs. The BIDS validator reported
 no errors. Packaged for NEMAR by Bruno Aristimunha (2026-10-06).
+
+## How to load
+
+```python
+import mne, numpy as np, pandas as pd
+vhdr = "sub-001/ieeg/sub-001_task-wordreading_run-1_ieeg.vhdr"
+raw = mne.io.read_raw_brainvision(vhdr, preload=True)          # 1000 Hz, SEEG, volts
+data = raw.get_data()                                           # (n_channels, n_epochs * 3000)
+epochs = data.reshape(data.shape[0], -1, 3000).transpose(1, 0, 2)  # (n_epochs, n_channels, 3000)
+ev = pd.read_csv(vhdr.replace("_ieeg.vhdr", "_events.tsv"), sep="\t")
+labels = ev["value"].to_numpy()                                 # one Chinese word per epoch (word_en: English)
+```
+
+`task-wordreading_events.json` lists the 61 words with the authors' English translations (`value` Levels).
+
+## Funding and acknowledgements
+
+National Science and Technology Innovation 2030 Major Program (2022ZD0205500), National Natural Science Foundation of
+China (32271093), Beijing Natural Science Foundation (Z230010, L222033), and the Fundamental Research Funds for the
+Central Universities (paper, Acknowledgements; also in `dataset_description.json`).
 
 ## Licence and citation
 
