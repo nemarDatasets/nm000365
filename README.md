@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000365-blue)](https://doi.org/10.82901/nemar.nm000365)
+
 # Du-IN Chinese word-reading sEEG (Zheng et al., NeurIPS 2024): the authors' preprocessed epochs
 
 **These are not raw recordings.** This dataset is a BIDS packaging of the word-reading sEEG data released with
