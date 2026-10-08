@@ -58,5 +58,7 @@
       "URL": "https://huggingface.co/datasets/liulab-repository/Du-IN",
       "Version": "2c85b670230dced33f2f1cbd0903648680ecc7d0"
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000365",
+  "Version": "1.0.0"
 }
