@@ -1,3 +1,6 @@
+1.0.3 2026-10-21
+  - events.tsv: new status/status_description columns in the 16 runs that have epochs with |value| > 10 mV; those 55 epochs are marked bad (up to 0.4849 V, sub-003 run 3). Columns described in task-wordreading_events.json; README lists the epochs.
+
 1.0.2 2026-10-17
   - dataset_description.json: replace the citation-slug Name with the human-readable title supported by README.md. Dataset recordings unchanged. Source: README.md; https://doi.org/10.52202/079017-2542.
 

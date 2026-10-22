@@ -110,6 +110,26 @@ trials and the rejection criterion are not documented, and sub-009 run 5 has 60 
 large transients: the maximum |value| is 0.48 V in sub-003 run 3 and 0.24 V in sub-008 run 4, while median channel SDs
 are about 2e-5 to 6e-5 V. These are kept as released, and no channel is marked bad.
 
+55 epochs in 16 runs have |value| > 10 mV (the median epoch maximum is 0.53 mV). They are marked `bad` in the
+`status` column of the events files, with channel and peak in `status_description`. By `source_epoch_index`:
+
+- sub-001 run 2: 128, 287, 289, 293, 296, 364
+- sub-001 run 3: 346, 392
+- sub-001 run 4: 72, 271, 365, 495, 532, 534, 542, 543
+- sub-001 run 5: 99
+- sub-001 run 6: 174, 175, 196, 257, 343, 387, 413, 435
+- sub-003 run 3: 535, 536
+- sub-003 run 6: 337
+- sub-005 run 3: 104
+- sub-005 run 4: 93, 382, 402, 475
+- sub-005 run 5: 320, 341
+- sub-008 run 1: 347, 399, 400
+- sub-008 run 3: 61, 77, 288, 365, 450, 508
+- sub-008 run 4: 405, 421, 514
+- sub-008 run 5: 192, 372, 487, 489
+- sub-008 run 6: 29, 35, 79
+- sub-009 run 4: 342
+
 ## Conversion and checks
 
 Packaging only: no filtering, resampling, re-referencing, channel dropping or epoch dropping. A round trip

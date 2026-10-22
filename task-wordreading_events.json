@@ -87,5 +87,15 @@
   },
   "source_epoch_index": {
     "Description": "0-based position of the epoch in the source pickled list (dataset.bipolar.default.unaligned/data). The release does not state whether this order is the presentation order, and does not give the position of the epoch relative to the trial events (word onset, go cue, speech onset); \"unaligned\" is the authors' variant name."
+  },
+  "status": {
+    "Description": "Data quality of the epoch; only in runs with a flagged epoch",
+    "Levels": {
+      "good": "max |value| <= 10 mV on every channel",
+      "bad": "max |value| > 10 mV on at least one channel"
+    }
+  },
+  "status_description": {
+    "Description": "Channels above 10 mV in this epoch, with their peak |value|"
   }
 }
